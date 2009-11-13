@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@implementation ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} : OJTestCase
+
+- (void)testThat${2:${1:${TM_FILENAME/(.*?)Test(\..+)/$1/}}}Does${3:Initialize}
+{$0
+}
+
+@end</string>
+	<key>name</key>
+	<string>Test Class</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>tcl</string>
+	<key>uuid</key>
+	<string>BE6BF6CF-11B7-4746-A68E-8EC148DA5907</string>
+</dict>
+</plist>

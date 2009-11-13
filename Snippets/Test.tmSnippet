@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+- (void)testThat${1:${TM_FILENAME/(.*?)(Test.*\..+)/$1/}}Does${2:X}
+{$0
+}
+</string>
+	<key>name</key>
+	<string>Test</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>tc</string>
+	<key>uuid</key>
+	<string>58925BA1-6C48-4082-924B-A5F363498795</string>
+</dict>
+</plist>
