@@ -2,6 +2,8 @@
 
 To install with Git:
 
+    First make sure to remove any old Objective-J bundles then:
+
     mkdir -p ~/Library/Application\ Support/TextMate/Bundles
     cd ~/Library/Application\ Support/TextMate/Bundles
     git clone git://github.com/malkomalko/Cappuccino.tmbundle.git
@@ -28,13 +30,11 @@ To install with Git:
     * ![](http://img.skitch.com/20091111-7959c6us75g6ru44fm1ifywu8.preview.png) (mhr) Resize Height Fixed Right
     * ![](http://img.skitch.com/20091111-me47cnyw61ck7bj3dpqcxakstn.preview.png) (mwt) Resize Width Fixed Top
     * ![](http://img.skitch.com/20091111-njpxp63rn75f2gmdeyc9cj48qp.preview.png) (mwb) Resize Width Fixed Bottom
-  * Patterns
-    * Place for common code idioms and structures
   * Utilities
     * (rect) CGRectGetWidth
     * (rect) CGRectGetHeight
     * (rect) CGRectMakeZero
     * (rect) CGRectMake
-    * (asv) addSubView
     * (color) common CPColor methods
 * Language/Syntax
+* Documentation for Word Command from rsim
