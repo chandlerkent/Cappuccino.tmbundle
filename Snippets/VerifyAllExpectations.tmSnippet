@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[${1:mockObject} verifyThatAllExpectationsHaveBeenMet];</string>
+	<key>name</key>
+	<string>VerifyAllExpectations</string>
+	<key>scope</key>
+	<string>source.js.objj</string>
+	<key>tabTrigger</key>
+	<string>verify</string>
+	<key>uuid</key>
+	<string>3DF9B1E4-7846-4715-93A3-47FFC8364220</string>
+</dict>
+</plist>
