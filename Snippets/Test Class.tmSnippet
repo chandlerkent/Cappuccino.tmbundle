@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@implementation ${1:${TM_FILENAME/(.*?)(\..+)/$1/}} : OJTestCase
+	<string>@implementation ${1:${TM_FILENAME/(.*).j/$1/}} : OJTestCase
 
-- (void)testThat${2:${1:${TM_FILENAME/(.*?)Test(\..+)/$1/}}}Does${3:Initialize}
+- (void)testThat${2:${TM_FILENAME/(.*)Test.j/$1/}}Does${3:Initialize}
 {$0
 }
 
