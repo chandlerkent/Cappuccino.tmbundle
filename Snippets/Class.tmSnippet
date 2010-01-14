@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>
-@implementation ${1:class} : ${2:CPObject}
+@implementation ${1:${TM_FILENAME/(.*).j/$1/}} : ${2:CPObject}
 {
 }
 
