@@ -236,7 +236,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(@)(defs|encode|accessors)\b</string>
+			<string>(@)(defs|encode|accessors|import)\b</string>
 			<key>name</key>
 			<string>keyword.other.js.objj</string>
 		</dict>
