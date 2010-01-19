@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
+	<string>@import &lt;${3:Foundation}/${2}.j&gt;
+
 @implementation ${1:${TM_FILENAME/(.*).j/$1/}} : ${2:CPObject}
 {
 }
 
-- (id)init
+- (id)${4:init}
 {
-	if(self = [super init])
+	self = [super ${4}];
+	if(self)
 	{$0
 	}
 	return self;
