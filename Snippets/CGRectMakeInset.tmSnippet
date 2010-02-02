@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>CGInsetRect(${1:rect}, ${2:10}, ${3:10})</string>
+	<string>CGRectInset(${1:rect}, ${2:10}, ${3:10})</string>
 	<key>name</key>
 	<string>CGInsetRect</string>
 	<key>scope</key>
