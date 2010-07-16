@@ -18,8 +18,7 @@
 	return self;
 }
 
-@end
-</string>
+@end</string>
 	<key>name</key>
 	<string>class</string>
 	<key>scope</key>
